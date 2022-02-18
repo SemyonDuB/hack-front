@@ -1,13 +1,9 @@
 import "./App.css";
-import { Avatar } from "antd";
-import { UserOutlined } from "@ant-design/icons";
-import { Row, Col } from "antd";
 import { Layout } from "antd";
-import { Skeleton } from "antd";
-import { Button } from "antd";
 import { Header } from "./components/Header";
+import { Profile } from "./pages/Profile";
 
-const { Footer, Sider, Content } = Layout;
+const { Footer, Content } = Layout;
 
 function App() {
   return (
@@ -15,7 +11,7 @@ function App() {
       <Layout>
         <Header />
         <Content style={{ padding: "50px 50px" }}>
-          
+          <Profile />
         </Content>
         <Footer>Footer</Footer>
       </Layout>

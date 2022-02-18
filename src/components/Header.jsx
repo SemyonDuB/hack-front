@@ -1,7 +1,9 @@
+import { Typography, Layout } from "antd";
+const { Title } = Typography;
 export const Header = () => {
   return (
-    <Header>
+    <Layout.Header>
       <Title level={3}>Header</Title>
-    </Header>
+    </Layout.Header>
   );
 };
